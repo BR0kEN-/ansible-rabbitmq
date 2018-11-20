@@ -1,5 +1,4 @@
 ---
-
 - include: repository.yml
   tags: repository
 
@@ -18,5 +17,3 @@
 
 - include: rabbitmq.yml
   when: 'not rabbitmq_create_cluster or (ansible_fqdn == rabbitmq_cluster_master)'
-
-- meta: flush_handlers

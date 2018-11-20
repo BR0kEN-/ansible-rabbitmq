@@ -1,5 +1,4 @@
 ---
-
 rabbitmq_erlang_cookie: 1qa2ws3ed
 rabbitmq_ulimit_open_files: 1024
 rabbitmq_memory_high_watermark: 0.4
@@ -41,12 +40,10 @@ rabbitmq_vhosts_queues:
     password:
     durable: 'true'
 
-##   Requares additional plugin enabled: rabbitmq_shovel
-##   See https://www.rabbitmq.com/shovel-dynamic.html for json format
+## Requires additional plugin enabled: rabbitmq_shovel
+## https://www.rabbitmq.com/shovel-dynamic.html
 rabbitmq_shovels:
-  -
-    shovel_name:
+  - shovel_name:
     shovel_json: ''
-  -
-    shovel_name:
+  - shovel_name:
     shovel_json: ''

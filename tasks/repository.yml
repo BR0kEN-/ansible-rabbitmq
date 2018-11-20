@@ -1,7 +1,4 @@
 ---
-# Setup installation repositories
-# Standart repository for Debian / Ubuntu (http://www.rabbitmq.com/install-debian.html)
-
 - name: import repository key
   apt_key:
     url: http://www.rabbitmq.com/rabbitmq-signing-key-public.asc

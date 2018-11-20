@@ -1,6 +1,4 @@
 ---
-# Configure RabbitMQ
-
 - name: rabbitmq default file
   template:
     src: etc/default/rabbitmq-server.j2
